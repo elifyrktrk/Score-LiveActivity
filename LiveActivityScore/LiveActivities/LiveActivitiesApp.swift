@@ -30,8 +30,8 @@ class AppDelegate : NSObject, UIApplicationDelegate{
               }
             // Override point for customization after application launch.
             Netmera.start()
-            Netmera.setBaseURL("https://preprod.netmera.com/")
-            Netmera.setAPIKey("M76rdUoQJBszIn41yG9Xm47_3BAlU9jOo2UVUB4hjajGMHsVORU0VA")
+            Netmera.setBaseURL("your_base_url")
+            Netmera.setAPIKey("your_api_key")
             Netmera.setLogLevel(NetmeraLogLevel.debug)
             // Call this method with needed notification types
             Netmera.requestPushNotificationAuthorization(forTypes: [.alert, .badge, .sound])
