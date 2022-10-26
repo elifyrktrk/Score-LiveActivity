@@ -1,0 +1,15 @@
+{
+  "aps": {
+      "timestamp": 1168364460,
+      "event": "update",
+      "content-state": {
+          "status" : "ready"
+          
+      },
+      "alert": {
+          "title": "Netmera Live Activity",
+          "body": "Siparişin hazır"
+      },
+   },
+  "Simulator Target Bundle": "com.netmera.NetmeraApp"
+}

@@ -1,0 +1,1861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		504D61EE5449E137D951A12A2D4DAA2D /* Netmera */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E643408141A2390B8CF8B5E5C0D6D8E4 /* Build configuration list for PBXAggregateTarget "Netmera" */;
+			buildPhases = (
+				EFBCD59DDBF718CB13EE9953DE744C11 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				8932BBB5512A366CE99322C65E98CA32 /* PBXTargetDependency */,
+				0F0952C592E24FE0D372AA03AD676546 /* PBXTargetDependency */,
+				F19364DB654FDFAA70D1A9BF7953996F /* PBXTargetDependency */,
+				0D3415FED1746910D8231689F731266F /* PBXTargetDependency */,
+				666AEB2F40022D95C5402309A39BDD27 /* PBXTargetDependency */,
+			);
+			name = Netmera;
+		};
+		CA0300171E9802D54557EF380E7BF488 /* NetmeraCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D57635676256021813CF5531494D315E /* Build configuration list for PBXAggregateTarget "NetmeraCore" */;
+			buildPhases = (
+				3BFEC5974A9314375091F6488879C4E1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = NetmeraCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		026C121723B2CF45084053F07BCE8A06 /* Pods-OrderStatusExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB47D0A00C27CF1AFAA41F2E1CD222A /* Pods-OrderStatusExtension-dummy.m */; };
+		02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8137AF8A9750955E5A3143FAC1FE7E67 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		07244C2EC82FF1901C6EE8163C2D3BBB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16A248700DC2157034AF2E7C59331D /* AFHTTPSessionManager.m */; };
+		077C0927BC236DB8E780A0633B43AEAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = E53FCA0DE1592F3F01C95CC1368A2CBE /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BA5E63724842DB3DC18163244FAA9DC /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B30488FDD2A90530C0831FBE3F263A /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 378196C27743AA96AA958BC0D3644E6F /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF368A05022437E92EC496E7A2CB34 /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F66922625C0CB36325608AA3DB9C17 /* FMDB-dummy.m */; };
+		1DC7A9420DB44F70BBA8FFD2422609BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 240A0E3AA4ABCF9BAAAF1704BC15D823 /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A8BA5FF10343294787CF2F721D6042 /* UICKeyChainStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 211D4505B677047F2F9FE883D98B4E03 /* UICKeyChainStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC0DEAF2713046B47E20137D5FE7705 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1794D99E095EBCAFF11F5F4DA888A2 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2C5D492E700801B1DF298EAFC886CF /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 667B4B47F139924B31E7E3EC2833E99D /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B4E131D0B8731A5A50A97EC0974099 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9331336A7FADF04121D592EEE5478F82 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D95C188F70F7891301A933272D946AB /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B61575B1C17BD737EF557C723AA7370 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CCFA5E5B5B5A77D2559676DFF1D62F /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 984D623D0624101A874BA982436FB959 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4837B20FF2D9DBD336AD70425A95CADB /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62211E8EFA0475CC72D87B4066E10 /* UICKeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4CA861663F47636F2A9CF9F6AA0F2EF6 /* Pods-LiveActivities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC959D13CF3899171F0A1D7E72180DF /* Pods-LiveActivities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCCA8184D35EE934E61E9577DC85501 /* UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C411BA237A98FA18D76376658E3795E2 /* UICKeyChainStore-dummy.m */; };
+		50E8F0C3B35A252B0AADD9B3DD88603F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3CB05CDA93FFC299870EC4F07D2BE2 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F10DF133C68DA62BA7A3C3DD770DCE43 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB24234F3E84F7DD0AF80D84E43DF63 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 301A3A72D4DAEB1CC3C88E3ABEAF186A /* AFURLRequestSerialization.m */; };
+		5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D703F0277ACF27C00D4B50531B38178 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C87FB632C4F29C8B83BFF20C778F5F /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE8C067394041ADF63870D77E72173 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B63027E476F9994F84B72F809BA2734E /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E59B65D90ADAFA908451C7C7CB4DC17 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = AA131293D25024706D90ABA79E472BF1 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 753A0A4E02D7F81014A05614D4735F5E /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C4AB9335E17FF66B11A4AF950EFDDF /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508C28FDB545AA07461F97E80DBADC9 /* AFNetworking-dummy.m */; };
+		8CFA7CF525FB0BE5D2236B5A2C257059 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = D76668C7260FC89244D2D7C02C15D43E /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D79A3931EA1F9DAC942911D936139E /* MMWormhole-dummy.m */; };
+		8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E54C4A0402406FB3D2A6632238E4D /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1157BD27767001E137F3B859D549C129 /* WatchConnectivity.framework */; };
+		9932149C6B9001A8A4D73D50F682E35A /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 398E46431EB33CB1721B2C9F3304D007 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2298CE217BFD2BC214B2A23996A792 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D2AF7305A1FA6AEEC7E2A00B6BE708 /* AFNetworkReachabilityManager.m */; };
+		A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9984FD80406AF0CDF2F88017DFBBFDEF /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FC5CF7CD93C97A59F5182C03B6FBAE /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B581E514917B38AA7D828E1C108FFC59 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 209B6A749AC1B30B34324D7F519EDE64 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69B9F0498E101358AA636FB3C9DE1FF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAA8A329CBC0A73E45ED1C7BB10CC05 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		BAC471029ED5BFBD456FC7322D212B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA81601B6362A06EDE8D958D8EBCD3F /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFB304BD4ED9AA3D4DB1C15275497B2A /* Pods-OrderStatusExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC987E39206DBFD72743981F34FD37F /* Pods-OrderStatusExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86538A68F0BBD857A7033C12BB4ECBC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F41AA2391154A9B00E2614D0A49D1D6E /* AFSecurityPolicy.m */; };
+		CC6EB77BD05388A0B977920C3921F13B /* Pods-LiveActivities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9B154656806006CCEB5CBD7EA9F3A /* Pods-LiveActivities-dummy.m */; };
+		CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97B765A85A9CC83BF65255A119F0C2 /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0EA0517FB12B50510059730F2A2D0F /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2254DA384ACC0F97A2E34EE76CC6CCB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F029C1E7DC3753B68AD42847CCF058 /* AFURLSessionManager.m */; };
+		D463D4E9328C9205E200FFE16350A919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F040AE6C0123CEAABE40B91A6D549A80 /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E025BA6BFD719C33ACC54F5100425721 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EE605DAE3383C305DB15B95EBD200741 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05884CFA6BF7E1F20BE3EA4BF9D6EF2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B2C1A052814397CFD333D3B7522D91 /* AFURLResponseSerialization.m */; };
+		EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */; };
+		EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB64A4B284BA88587810D3CBE1F918 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1A7C30C5169EACB5725AE89E6E10907 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3428525A34C6F4E20C7B981D501EF9C5 /* Security.framework */; };
+		F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3879AAC04CFCE8D9C8BB4FC7BB98A424 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1944A02234F77A60B5ED3E563AF360C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0300171E9802D54557EF380E7BF488;
+			remoteInfo = NetmeraCore;
+		};
+		1D3E18B5E371C33BC64FB8DCB14AB767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0300171E9802D54557EF380E7BF488;
+			remoteInfo = NetmeraCore;
+		};
+		248633F1245514D2BB79FC7BED8357AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504D61EE5449E137D951A12A2D4DAA2D;
+			remoteInfo = Netmera;
+		};
+		28414FE43B82BF5DA9076B328948BBB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		348F9EC8EE4870309DCFC294FA303A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+		56F25469ECB6029CB371ECAB3572AFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7406ECC476A62C8FA502AD0E8D1240BE;
+			remoteInfo = UICKeyChainStore;
+		};
+		6C14510F8150F8966858A0CE1F4AF50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7406ECC476A62C8FA502AD0E8D1240BE;
+			remoteInfo = UICKeyChainStore;
+		};
+		8CE494E8297BE3C487882933AB21C14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		CF125F94D78004530EBEAE6AF5D70E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+		D7FE3E474DABDFE6E0BE59B43DB34D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		FC5E0C0693F1795828F266F15210DE47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B9B154656806006CCEB5CBD7EA9F3A /* Pods-LiveActivities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveActivities-dummy.m"; sourceTree = "<group>"; };
+		06BD74E2B8F96C4C63548E2CD466D385 /* Pods-OrderStatusExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderStatusExtension-Info.plist"; sourceTree = "<group>"; };
+		09F81DD46E2AAB29387758B0BF6E7EB7 /* UICKeyChainStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UICKeyChainStore-Info.plist"; sourceTree = "<group>"; };
+		0D9D2F6FFA77B2EF8EA2804F20C27EEB /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMWormhole.modulemap; sourceTree = "<group>"; };
+		1157BD27767001E137F3B859D549C129 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		12CCFA5E5B5B5A77D2559676DFF1D62F /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		184E54C4A0402406FB3D2A6632238E4D /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		1C44238C5A3DDD5A94E8CF7F16144226 /* Netmera-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Netmera-xcframeworks.sh"; sourceTree = "<group>"; };
+		1CA4C2E4B1F0D2CDC6BB24811EE3F0F7 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		1E59B65D90ADAFA908451C7C7CB4DC17 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		209B6A749AC1B30B34324D7F519EDE64 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		211D4505B677047F2F9FE883D98B4E03 /* UICKeyChainStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-umbrella.h"; sourceTree = "<group>"; };
+		240A0E3AA4ABCF9BAAAF1704BC15D823 /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		28B4E131D0B8731A5A50A97EC0974099 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		2AC0DEAF2713046B47E20137D5FE7705 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2B28D12D90DBACBB899823EBAE1BCC17 /* NetmeraCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetmeraCore.debug.xcconfig; sourceTree = "<group>"; };
+		2BDF368A05022437E92EC496E7A2CB34 /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+		2D2C5D492E700801B1DF298EAFC886CF /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		2D703F0277ACF27C00D4B50531B38178 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2D9936058A23EEBB14775AF7C6B2B184 /* Pods-LiveActivities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveActivities.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE62211E8EFA0475CC72D87B4066E10 /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
+		2F3CB05CDA93FFC299870EC4F07D2BE2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		301A3A72D4DAEB1CC3C88E3ABEAF186A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3428525A34C6F4E20C7B981D501EF9C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		378196C27743AA96AA958BC0D3644E6F /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		3879AAC04CFCE8D9C8BB4FC7BB98A424 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		398E46431EB33CB1721B2C9F3304D007 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3D0EA0517FB12B50510059730F2A2D0F /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
+		3E16A248700DC2157034AF2E7C59331D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		3E773DD010EBEEB1F40296D8BAC7474A /* Pods-OrderStatusExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderStatusExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		402CB6A4C2D8B97DE3C92D9E4ED07A72 /* NetmeraCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "NetmeraCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		42FC5CF7CD93C97A59F5182C03B6FBAE /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		47236B6FB89D259D00AC0EA9DF15192B /* MMWormhole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-Info.plist"; sourceTree = "<group>"; };
+		47CF4F154F81C5C67346131D5B00FD46 /* Pods-OrderStatusExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderStatusExtension.release.xcconfig"; sourceTree = "<group>"; };
+		4BC959D13CF3899171F0A1D7E72180DF /* Pods-LiveActivities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveActivities-umbrella.h"; sourceTree = "<group>"; };
+		4C838914DFE6DF1B935411367A02C68F /* UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
+		4D97B765A85A9CC83BF65255A119F0C2 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		5569F2644837FE6B28ACDDAEF7BED192 /* NetmeraCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetmeraCore.release.xcconfig; sourceTree = "<group>"; };
+		57F833CF4D7967BF8ACB356BFB6ACB42 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
+		5B296864F7EDFB91782B6F408B0612D3 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		5B61575B1C17BD737EF557C723AA7370 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5BCB64A4B284BA88587810D3CBE1F918 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5D3A384401C336841A629098E43AAC81 /* Pods-OrderStatusExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderStatusExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA81601B6362A06EDE8D958D8EBCD3F /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
+		5E155DC737EC2933433EEC468C228806 /* NetmeraCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NetmeraCore.xcframework; path = Frameworks/NetmeraCore/NetmeraCore.xcframework; sourceTree = "<group>"; };
+		64D2AF7305A1FA6AEEC7E2A00B6BE708 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		667B4B47F139924B31E7E3EC2833E99D /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B41E8F1D610DD1601385688C51E087 /* MMWormhole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.release.xcconfig; sourceTree = "<group>"; };
+		7508C28FDB545AA07461F97E80DBADC9 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		753A0A4E02D7F81014A05614D4735F5E /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		75EE8C067394041ADF63870D77E72173 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		76B30488FDD2A90530C0831FBE3F263A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7886FF14E7BCA1DC6F04F3ED6336B752 /* Pods-LiveActivities-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveActivities-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79EE995DEF35A379C1B7801D1E590A06 /* Pods-LiveActivities-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveActivities-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B08A69CD7243F7E7D081B029FE830F6 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
+		7DAA8A329CBC0A73E45ED1C7BB10CC05 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		80D79A3931EA1F9DAC942911D936139E /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
+		8137AF8A9750955E5A3143FAC1FE7E67 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		81D87FD2462AF04C577CCAD86411E6C9 /* UICKeyChainStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.debug.xcconfig; sourceTree = "<group>"; };
+		838445C0D7401AD8710FE67AEC51A29F /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		881549AA205DB3503D2A197068109393 /* Pods-LiveActivities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveActivities.modulemap"; sourceTree = "<group>"; };
+		88F66922625C0CB36325608AA3DB9C17 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		8CB47D0A00C27CF1AFAA41F2E1CD222A /* Pods-OrderStatusExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderStatusExtension-dummy.m"; sourceTree = "<group>"; };
+		8E31097911098F58C7AA2936FD810F32 /* Pods-LiveActivities-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveActivities-frameworks.sh"; sourceTree = "<group>"; };
+		8F38F013B3723D96E29DEFA281260AEF /* Pods-OrderStatusExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderStatusExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		9331336A7FADF04121D592EEE5478F82 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		984D623D0624101A874BA982436FB959 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		9944AA921B545907B75170436E00DA21 /* MMWormhole.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.debug.xcconfig; sourceTree = "<group>"; };
+		9984FD80406AF0CDF2F88017DFBBFDEF /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		9A800E0C19913B53D3BB76C0F7F7F8CF /* UICKeyChainStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICKeyChainStore.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICKeyChainStore; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B2C1A052814397CFD333D3B7522D91 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AA131293D25024706D90ABA79E472BF1 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		AD674C37AB8E9BC7CD784820797DEA0D /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		B2F94CEECA1E83F93B9EEB6741DA425A /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		B63027E476F9994F84B72F809BA2734E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B6F19C73756B199E6BD0D1ABE4E1C6C9 /* UICKeyChainStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.release.xcconfig; sourceTree = "<group>"; };
+		B9DAE3D6D59BBFB6994596F378AFAB4F /* Pods-LiveActivities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveActivities-Info.plist"; sourceTree = "<group>"; };
+		BCA276142692FAE4392F2709FE20057C /* NetmeraAdId.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = NetmeraAdId.xcframework; path = Frameworks/NetmeraAdId/NetmeraAdId.xcframework; sourceTree = "<group>"; };
+		BEC2F6526E89FB054BA382D78CEF97CF /* Pods-LiveActivities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LiveActivities"; path = Pods_LiveActivities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F3A715CDE03C6B7FD2A20B2F5476D3 /* Netmera.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Netmera.xcframework; path = Frameworks/Netmera/Netmera.xcframework; sourceTree = "<group>"; };
+		C411BA237A98FA18D76376658E3795E2 /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
+		C6EA20F8047815E967684BC20D7959A2 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		D53CF9708C1A27F6B38A6404FA9D46E3 /* Pods-OrderStatusExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderStatusExtension.modulemap"; sourceTree = "<group>"; };
+		D5AF935485795B7E449BB8929FEF925A /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		D76668C7260FC89244D2D7C02C15D43E /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
+		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC987E39206DBFD72743981F34FD37F /* Pods-OrderStatusExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderStatusExtension-umbrella.h"; sourceTree = "<group>"; };
+		E0C87FB632C4F29C8B83BFF20C778F5F /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		E53FCA0DE1592F3F01C95CC1368A2CBE /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		E6DC52C0AE87DB1A19D972FBF1CA1BF7 /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
+		E9F029C1E7DC3753B68AD42847CCF058 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		EC733C0720B91D4346011B91EF35A343 /* Netmera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Netmera.release.xcconfig; sourceTree = "<group>"; };
+		ED66CA7D877813008889D1161AD3CA1F /* Netmera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Netmera.debug.xcconfig; sourceTree = "<group>"; };
+		EE605DAE3383C305DB15B95EBD200741 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		F040AE6C0123CEAABE40B91A6D549A80 /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
+		F10DF133C68DA62BA7A3C3DD770DCE43 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		F385961616B66F4801763CAFFB697CDD /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		F41AA2391154A9B00E2614D0A49D1D6E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F78331221F6F41692400B5010865A299 /* Pods-LiveActivities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveActivities.release.xcconfig"; sourceTree = "<group>"; };
+		FE42068C3676C1BB3050BD3DDAF3073D /* Pods-OrderStatusExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OrderStatusExtension"; path = Pods_OrderStatusExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CE7976A327A98FA11B937B79401E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6703FDCC6042E55442F939C92887744E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */,
+				98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B83A715DC249D13B69029E486E1AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077C0927BC236DB8E780A0633B43AEAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7149907B2310946BACE909EE690001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D463D4E9328C9205E200FFE16350A919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122B3418427288B4D1CEB1CC52C9FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC7A9420DB44F70BBA8FFD2422609BF /* Foundation.framework in Frameworks */,
+				F1A7C30C5169EACB5725AE89E6E10907 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9BF3ECB6BDAACA8E610E46C7221189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC471029ED5BFBD456FC7322D212B4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFB8CC125592B8211B3CA0F22116626 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DC5438331FB7A2860CE642308CFC1D2 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2F3CB05CDA93FFC299870EC4F07D2BE2 /* AFSecurityPolicy.h */,
+				F41AA2391154A9B00E2614D0A49D1D6E /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		1AE77F7A04858F7A3A99D151EC026427 /* Pods-LiveActivities */ = {
+			isa = PBXGroup;
+			children = (
+				881549AA205DB3503D2A197068109393 /* Pods-LiveActivities.modulemap */,
+				7886FF14E7BCA1DC6F04F3ED6336B752 /* Pods-LiveActivities-acknowledgements.markdown */,
+				79EE995DEF35A379C1B7801D1E590A06 /* Pods-LiveActivities-acknowledgements.plist */,
+				01B9B154656806006CCEB5CBD7EA9F3A /* Pods-LiveActivities-dummy.m */,
+				8E31097911098F58C7AA2936FD810F32 /* Pods-LiveActivities-frameworks.sh */,
+				B9DAE3D6D59BBFB6994596F378AFAB4F /* Pods-LiveActivities-Info.plist */,
+				4BC959D13CF3899171F0A1D7E72180DF /* Pods-LiveActivities-umbrella.h */,
+				2D9936058A23EEBB14775AF7C6B2B184 /* Pods-LiveActivities.debug.xcconfig */,
+				F78331221F6F41692400B5010865A299 /* Pods-LiveActivities.release.xcconfig */,
+			);
+			name = "Pods-LiveActivities";
+			path = "Target Support Files/Pods-LiveActivities";
+			sourceTree = "<group>";
+		};
+		1FD70DDA6D48661A2A740CA09BBC03E1 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				4B4045B7856233CB7D5391D29B44EE03 /* standard */,
+				724C09590976F3734CCD0D501940DA8F /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		244492BE11DD9D841F3C0CF43F8B7481 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9D2F6FFA77B2EF8EA2804F20C27EEB /* MMWormhole.modulemap */,
+				80D79A3931EA1F9DAC942911D936139E /* MMWormhole-dummy.m */,
+				47236B6FB89D259D00AC0EA9DF15192B /* MMWormhole-Info.plist */,
+				E6DC52C0AE87DB1A19D972FBF1CA1BF7 /* MMWormhole-prefix.pch */,
+				3D0EA0517FB12B50510059730F2A2D0F /* MMWormhole-umbrella.h */,
+				9944AA921B545907B75170436E00DA21 /* MMWormhole.debug.xcconfig */,
+				74B41E8F1D610DD1601385688C51E087 /* MMWormhole.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMWormhole";
+			sourceTree = "<group>";
+		};
+		315F0861B6CA7B8FE9F2BCF69872334E /* NetmeraWithoutAdId */ = {
+			isa = PBXGroup;
+			children = (
+				3370DCFF674B16442730C64D271F5A52 /* Frameworks */,
+			);
+			name = NetmeraWithoutAdId;
+			sourceTree = "<group>";
+		};
+		3370DCFF674B16442730C64D271F5A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0F3A715CDE03C6B7FD2A20B2F5476D3 /* Netmera.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33D49C2FF3CA1D4F91001644F1BE5D0C /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				B80EFFBEED32C1F761B0843E09B2AF57 /* Core */,
+				244492BE11DD9D841F3C0CF43F8B7481 /* Support Files */,
+			);
+			name = MMWormhole;
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		3449E3320AE56C82A17A0C2B54580B28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595919B6ED11A105539CA372E44D2E19 /* AFNetworking */,
+				1FD70DDA6D48661A2A740CA09BBC03E1 /* FMDB */,
+				33D49C2FF3CA1D4F91001644F1BE5D0C /* MMWormhole */,
+				5F584AB2E2AD44CC83B9825F9B29937F /* Netmera */,
+				78D2E99771531F71F22EC68973446479 /* NetmeraCore */,
+				F9895D58E29FF03B9FD75CAB72A14B92 /* UICKeyChainStore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37AE0D5BB1050E0D9F6D32593C552F76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A800E0C19913B53D3BB76C0F7F7F8CF /* UICKeyChainStore.modulemap */,
+				C411BA237A98FA18D76376658E3795E2 /* UICKeyChainStore-dummy.m */,
+				09F81DD46E2AAB29387758B0BF6E7EB7 /* UICKeyChainStore-Info.plist */,
+				4C838914DFE6DF1B935411367A02C68F /* UICKeyChainStore-prefix.pch */,
+				211D4505B677047F2F9FE883D98B4E03 /* UICKeyChainStore-umbrella.h */,
+				81D87FD2462AF04C577CCAD86411E6C9 /* UICKeyChainStore.debug.xcconfig */,
+				B6F19C73756B199E6BD0D1ABE4E1C6C9 /* UICKeyChainStore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICKeyChainStore";
+			sourceTree = "<group>";
+		};
+		4B4045B7856233CB7D5391D29B44EE03 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				3879AAC04CFCE8D9C8BB4FC7BB98A424 /* FMDatabase.h */,
+				984D623D0624101A874BA982436FB959 /* FMDatabase.m */,
+				2AC0DEAF2713046B47E20137D5FE7705 /* FMDatabaseAdditions.h */,
+				5BCB64A4B284BA88587810D3CBE1F918 /* FMDatabaseAdditions.m */,
+				F10DF133C68DA62BA7A3C3DD770DCE43 /* FMDatabasePool.h */,
+				75EE8C067394041ADF63870D77E72173 /* FMDatabasePool.m */,
+				2D703F0277ACF27C00D4B50531B38178 /* FMDatabaseQueue.h */,
+				B63027E476F9994F84B72F809BA2734E /* FMDatabaseQueue.m */,
+				28B4E131D0B8731A5A50A97EC0974099 /* FMDB.h */,
+				753A0A4E02D7F81014A05614D4735F5E /* FMResultSet.h */,
+				184E54C4A0402406FB3D2A6632238E4D /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		595919B6ED11A105539CA372E44D2E19 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				749305087A42B13A5A3C39F916D8158A /* NSURLSession */,
+				71A4BF175761FA54449320E08949A6FA /* Reachability */,
+				0DC5438331FB7A2860CE642308CFC1D2 /* Security */,
+				94BEEB744EA60E0676864C670495426D /* Serialization */,
+				BBF3DD61F6E67C025544A3E6919FAD4D /* Support Files */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		5F584AB2E2AD44CC83B9825F9B29937F /* Netmera */ = {
+			isa = PBXGroup;
+			children = (
+				B561B85EFD2846393B90DAF81C073CEF /* AdIdSupport */,
+				315F0861B6CA7B8FE9F2BCF69872334E /* NetmeraWithoutAdId */,
+				B3130C59868A860DECB0305130317829 /* Support Files */,
+			);
+			name = Netmera;
+			path = Netmera;
+			sourceTree = "<group>";
+		};
+		6044DA7E3D017D2B903523C137684B24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE77F7A04858F7A3A99D151EC026427 /* Pods-LiveActivities */,
+				D4788AC224ABB5885AB5ABABC9D3BCF5 /* Pods-OrderStatusExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DDD039C771F4B85D9079CE29172F811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA276142692FAE4392F2709FE20057C /* NetmeraAdId.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71A4BF175761FA54449320E08949A6FA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5B61575B1C17BD737EF557C723AA7370 /* AFNetworkReachabilityManager.h */,
+				64D2AF7305A1FA6AEEC7E2A00B6BE708 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		724C09590976F3734CCD0D501940DA8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6EA20F8047815E967684BC20D7959A2 /* FMDB.modulemap */,
+				88F66922625C0CB36325608AA3DB9C17 /* FMDB-dummy.m */,
+				7B08A69CD7243F7E7D081B029FE830F6 /* FMDB-Info.plist */,
+				5B296864F7EDFB91782B6F408B0612D3 /* FMDB-prefix.pch */,
+				12CCFA5E5B5B5A77D2559676DFF1D62F /* FMDB-umbrella.h */,
+				F385961616B66F4801763CAFFB697CDD /* FMDB.debug.xcconfig */,
+				57F833CF4D7967BF8ACB356BFB6ACB42 /* FMDB.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		749305087A42B13A5A3C39F916D8158A /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				EE605DAE3383C305DB15B95EBD200741 /* AFCompatibilityMacros.h */,
+				398E46431EB33CB1721B2C9F3304D007 /* AFHTTPSessionManager.h */,
+				3E16A248700DC2157034AF2E7C59331D /* AFHTTPSessionManager.m */,
+				2D2C5D492E700801B1DF298EAFC886CF /* AFURLSessionManager.h */,
+				E9F029C1E7DC3753B68AD42847CCF058 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		78D2E99771531F71F22EC68973446479 /* NetmeraCore */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C85526E38CBFACCFDD084C022A622 /* Frameworks */,
+				A7FD633AD5D8554B52939767A77B7807 /* Support Files */,
+			);
+			name = NetmeraCore;
+			path = NetmeraCore;
+			sourceTree = "<group>";
+		};
+		7DFB8CC125592B8211B3CA0F22116626 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C207DC62B786AFF2D3324869EB37523 /* Foundation.framework */,
+				3428525A34C6F4E20C7B981D501EF9C5 /* Security.framework */,
+				1157BD27767001E137F3B859D549C129 /* WatchConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94BEEB744EA60E0676864C670495426D /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				76B30488FDD2A90530C0831FBE3F263A /* AFURLRequestSerialization.h */,
+				301A3A72D4DAEB1CC3C88E3ABEAF186A /* AFURLRequestSerialization.m */,
+				7DAA8A329CBC0A73E45ED1C7BB10CC05 /* AFURLResponseSerialization.h */,
+				A8B2C1A052814397CFD333D3B7522D91 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		A7FD633AD5D8554B52939767A77B7807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				402CB6A4C2D8B97DE3C92D9E4ED07A72 /* NetmeraCore-xcframeworks.sh */,
+				2B28D12D90DBACBB899823EBAE1BCC17 /* NetmeraCore.debug.xcconfig */,
+				5569F2644837FE6B28ACDDAEF7BED192 /* NetmeraCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NetmeraCore";
+			sourceTree = "<group>";
+		};
+		B3130C59868A860DECB0305130317829 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C44238C5A3DDD5A94E8CF7F16144226 /* Netmera-xcframeworks.sh */,
+				ED66CA7D877813008889D1161AD3CA1F /* Netmera.debug.xcconfig */,
+				EC733C0720B91D4346011B91EF35A343 /* Netmera.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Netmera";
+			sourceTree = "<group>";
+		};
+		B561B85EFD2846393B90DAF81C073CEF /* AdIdSupport */ = {
+			isa = PBXGroup;
+			children = (
+				6DDD039C771F4B85D9079CE29172F811 /* Frameworks */,
+			);
+			name = AdIdSupport;
+			sourceTree = "<group>";
+		};
+		B80EFFBEED32C1F761B0843E09B2AF57 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				42FC5CF7CD93C97A59F5182C03B6FBAE /* MMWormhole.h */,
+				AA131293D25024706D90ABA79E472BF1 /* MMWormhole.m */,
+				1E59B65D90ADAFA908451C7C7CB4DC17 /* MMWormholeCoordinatedFileTransiting.h */,
+				4D97B765A85A9CC83BF65255A119F0C2 /* MMWormholeCoordinatedFileTransiting.m */,
+				9331336A7FADF04121D592EEE5478F82 /* MMWormholeFileTransiting.h */,
+				8137AF8A9750955E5A3143FAC1FE7E67 /* MMWormholeFileTransiting.m */,
+				F040AE6C0123CEAABE40B91A6D549A80 /* MMWormholeSession.h */,
+				5DA81601B6362A06EDE8D958D8EBCD3F /* MMWormholeSession.m */,
+				9984FD80406AF0CDF2F88017DFBBFDEF /* MMWormholeSessionContextTransiting.h */,
+				E53FCA0DE1592F3F01C95CC1368A2CBE /* MMWormholeSessionContextTransiting.m */,
+				378196C27743AA96AA958BC0D3644E6F /* MMWormholeSessionFileTransiting.h */,
+				667B4B47F139924B31E7E3EC2833E99D /* MMWormholeSessionFileTransiting.m */,
+				E0C87FB632C4F29C8B83BFF20C778F5F /* MMWormholeSessionMessageTransiting.h */,
+				2BDF368A05022437E92EC496E7A2CB34 /* MMWormholeSessionMessageTransiting.m */,
+				240A0E3AA4ABCF9BAAAF1704BC15D823 /* MMWormholeTransiting.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BBF3DD61F6E67C025544A3E6919FAD4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5AF935485795B7E449BB8929FEF925A /* AFNetworking.modulemap */,
+				7508C28FDB545AA07461F97E80DBADC9 /* AFNetworking-dummy.m */,
+				1CA4C2E4B1F0D2CDC6BB24811EE3F0F7 /* AFNetworking-Info.plist */,
+				AD674C37AB8E9BC7CD784820797DEA0D /* AFNetworking-prefix.pch */,
+				209B6A749AC1B30B34324D7F519EDE64 /* AFNetworking-umbrella.h */,
+				838445C0D7401AD8710FE67AEC51A29F /* AFNetworking.debug.xcconfig */,
+				B2F94CEECA1E83F93B9EEB6741DA425A /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		C374A3A56D718AA41BC96030FFE78430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
+				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */,
+				BEC2F6526E89FB054BA382D78CEF97CF /* Pods-LiveActivities */,
+				FE42068C3676C1BB3050BD3DDAF3073D /* Pods-OrderStatusExtension */,
+				A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				3449E3320AE56C82A17A0C2B54580B28 /* Pods */,
+				C374A3A56D718AA41BC96030FFE78430 /* Products */,
+				6044DA7E3D017D2B903523C137684B24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4788AC224ABB5885AB5ABABC9D3BCF5 /* Pods-OrderStatusExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D53CF9708C1A27F6B38A6404FA9D46E3 /* Pods-OrderStatusExtension.modulemap */,
+				3E773DD010EBEEB1F40296D8BAC7474A /* Pods-OrderStatusExtension-acknowledgements.markdown */,
+				8F38F013B3723D96E29DEFA281260AEF /* Pods-OrderStatusExtension-acknowledgements.plist */,
+				8CB47D0A00C27CF1AFAA41F2E1CD222A /* Pods-OrderStatusExtension-dummy.m */,
+				06BD74E2B8F96C4C63548E2CD466D385 /* Pods-OrderStatusExtension-Info.plist */,
+				DCC987E39206DBFD72743981F34FD37F /* Pods-OrderStatusExtension-umbrella.h */,
+				5D3A384401C336841A629098E43AAC81 /* Pods-OrderStatusExtension.debug.xcconfig */,
+				47CF4F154F81C5C67346131D5B00FD46 /* Pods-OrderStatusExtension.release.xcconfig */,
+			);
+			name = "Pods-OrderStatusExtension";
+			path = "Target Support Files/Pods-OrderStatusExtension";
+			sourceTree = "<group>";
+		};
+		EA4C85526E38CBFACCFDD084C022A622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E155DC737EC2933433EEC468C228806 /* NetmeraCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9895D58E29FF03B9FD75CAB72A14B92 /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				D76668C7260FC89244D2D7C02C15D43E /* UICKeyChainStore.h */,
+				2DE62211E8EFA0475CC72D87B4066E10 /* UICKeyChainStore.m */,
+				37AE0D5BB1050E0D9F6D32593C552F76 /* Support Files */,
+			);
+			name = UICKeyChainStore;
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D8E4317C43E801B146629D24251A1E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */,
+				24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */,
+				58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */,
+				5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */,
+				32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */,
+				3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */,
+				8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467266502C728982B023FE5C2A43841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */,
+				D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */,
+				802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */,
+				DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */,
+				A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */,
+				10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */,
+				61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4752EF66358C5DEF201D527BC55A9C9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFA7CF525FB0BE5D2236B5A2C257059 /* UICKeyChainStore.h in Headers */,
+				21A8BA5FF10343294787CF2F721D6042 /* UICKeyChainStore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78540745AB0CFB7ED45561B785613E53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025BA6BFD719C33ACC54F5100425721 /* AFCompatibilityMacros.h in Headers */,
+				9932149C6B9001A8A4D73D50F682E35A /* AFHTTPSessionManager.h in Headers */,
+				B581E514917B38AA7D828E1C108FFC59 /* AFNetworking-umbrella.h in Headers */,
+				3D95C188F70F7891301A933272D946AB /* AFNetworkReachabilityManager.h in Headers */,
+				50E8F0C3B35A252B0AADD9B3DD88603F /* AFSecurityPolicy.h in Headers */,
+				0BA5E63724842DB3DC18163244FAA9DC /* AFURLRequestSerialization.h in Headers */,
+				B69B9F0498E101358AA636FB3C9DE1FF /* AFURLResponseSerialization.h in Headers */,
+				2A1794D99E095EBCAFF11F5F4DA888A2 /* AFURLSessionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DBD85CC3401F544D12267594E72F8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA861663F47636F2A9CF9F6AA0F2EF6 /* Pods-LiveActivities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01746A3ECF3A559DFD5AA39CF9C9E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB304BD4ED9AA3D4DB1C15275497B2A /* Pods-OrderStatusExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60027E31A7444922D657895F596AD76 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				78540745AB0CFB7ED45561B785613E53 /* Headers */,
+				82435DBFB5F14504AA45AA0EC5194794 /* Sources */,
+				83B83A715DC249D13B69029E486E1AC2 /* Frameworks */,
+				EBB91F85A58B19DA8D2FC189583DEBF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */;
+			productType = "com.apple.product-type.framework";
+		};
+		7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55EC52B4DF6E9DCBA805620E92C24A8 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */;
+			buildPhases = (
+				4752EF66358C5DEF201D527BC55A9C9F /* Headers */,
+				5BCBD3FBF07B8568AA9F8A57FB067E55 /* Sources */,
+				A122B3418427288B4D1CEB1CC52C9FE7 /* Frameworks */,
+				70BF18A7564FAECAF3123DB2330DF0A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICKeyChainStore;
+			productName = UICKeyChainStore;
+			productReference = A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */;
+			productType = "com.apple.product-type.framework";
+		};
+		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				1D8E4317C43E801B146629D24251A1E5 /* Headers */,
+				4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */,
+				46CE7976A327A98FA11B937B79401E29 /* Frameworks */,
+				391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0C47FF6C667BA571E81F03EEF7AE11F /* Pods-LiveActivities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63D0B52C50B4C7A3189B42561E7EEFD /* Build configuration list for PBXNativeTarget "Pods-LiveActivities" */;
+			buildPhases = (
+				D2DBD85CC3401F544D12267594E72F8F /* Headers */,
+				8ED7554C6701FFD321BE256D175961EA /* Sources */,
+				BD9BF3ECB6BDAACA8E610E46C7221189 /* Frameworks */,
+				E7C66F58B91E8C40B0A23C7BC589D3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5C126B345513D5252A966902381224 /* PBXTargetDependency */,
+				2B054AB4F964CFE10506E481E3FC43C7 /* PBXTargetDependency */,
+				E7A0BF4748641B86F667E6B009AEBABA /* PBXTargetDependency */,
+				C4AAFDC60C062FAEB3E3D81342DD5A05 /* PBXTargetDependency */,
+				A4973166CBAACD5A907123CDAB8A9DA1 /* PBXTargetDependency */,
+				836F8DE170690EFE02FE63F9881EAE4E /* PBXTargetDependency */,
+			);
+			name = "Pods-LiveActivities";
+			productName = Pods_LiveActivities;
+			productReference = BEC2F6526E89FB054BA382D78CEF97CF /* Pods-LiveActivities */;
+			productType = "com.apple.product-type.framework";
+		};
+		E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildPhases = (
+				3467266502C728982B023FE5C2A43841 /* Headers */,
+				DD7AF75964F686323DCFD0548A939186 /* Sources */,
+				6703FDCC6042E55442F939C92887744E /* Frameworks */,
+				9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMWormhole;
+			productName = MMWormhole;
+			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */;
+			productType = "com.apple.product-type.framework";
+		};
+		E880125A129CF5FF7CFED137E6E106A5 /* Pods-OrderStatusExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E6D1B69EAF7079A52007EBFEA3C598 /* Build configuration list for PBXNativeTarget "Pods-OrderStatusExtension" */;
+			buildPhases = (
+				F01746A3ECF3A559DFD5AA39CF9C9E83 /* Headers */,
+				2C2DD45BE4E346D35BC5028240F47ED5 /* Sources */,
+				9A7149907B2310946BACE909EE690001 /* Frameworks */,
+				295BE5BD4D2070EA73407D3795FC28AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OrderStatusExtension";
+			productName = Pods_OrderStatusExtension;
+			productReference = FE42068C3676C1BB3050BD3DDAF3073D /* Pods-OrderStatusExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C374A3A56D718AA41BC96030FFE78430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
+				E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */,
+				504D61EE5449E137D951A12A2D4DAA2D /* Netmera */,
+				CA0300171E9802D54557EF380E7BF488 /* NetmeraCore */,
+				E0C47FF6C667BA571E81F03EEF7AE11F /* Pods-LiveActivities */,
+				E880125A129CF5FF7CFED137E6E106A5 /* Pods-OrderStatusExtension */,
+				7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		295BE5BD4D2070EA73407D3795FC28AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BF18A7564FAECAF3123DB2330DF0A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C66F58B91E8C40B0A23C7BC589D3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB91F85A58B19DA8D2FC189583DEBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BFEC5974A9314375091F6488879C4E1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NetmeraCore/NetmeraCore-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/NetmeraCore/NetmeraCore-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/NetmeraCore/NetmeraCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBCD59DDBF718CB13EE9953DE744C11 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Netmera/Netmera-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Netmera/Netmera-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Netmera/Netmera-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2DD45BE4E346D35BC5028240F47ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C121723B2CF45084053F07BCE8A06 /* Pods-OrderStatusExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */,
+				EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */,
+				73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */,
+				77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */,
+				176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */,
+				8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCBD3FBF07B8568AA9F8A57FB067E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4837B20FF2D9DBD336AD70425A95CADB /* UICKeyChainStore.m in Sources */,
+				4DCCA8184D35EE934E61E9577DC85501 /* UICKeyChainStore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82435DBFB5F14504AA45AA0EC5194794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07244C2EC82FF1901C6EE8163C2D3BBB /* AFHTTPSessionManager.m in Sources */,
+				84C4AB9335E17FF66B11A4AF950EFDDF /* AFNetworking-dummy.m in Sources */,
+				9E2298CE217BFD2BC214B2A23996A792 /* AFNetworkReachabilityManager.m in Sources */,
+				C86538A68F0BBD857A7033C12BB4ECBC /* AFSecurityPolicy.m in Sources */,
+				5DB24234F3E84F7DD0AF80D84E43DF63 /* AFURLRequestSerialization.m in Sources */,
+				E05884CFA6BF7E1F20BE3EA4BF9D6EF2 /* AFURLResponseSerialization.m in Sources */,
+				D2254DA384ACC0F97A2E34EE76CC6CCB /* AFURLSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED7554C6701FFD321BE256D175961EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6EB77BD05388A0B977920C3921F13B /* Pods-LiveActivities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7AF75964F686323DCFD0548A939186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */,
+				8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */,
+				CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */,
+				BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */,
+				0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */,
+				321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */,
+				145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D3415FED1746910D8231689F731266F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetmeraCore;
+			target = CA0300171E9802D54557EF380E7BF488 /* NetmeraCore */;
+			targetProxy = 1D3E18B5E371C33BC64FB8DCB14AB767 /* PBXContainerItemProxy */;
+		};
+		0F0952C592E24FE0D372AA03AD676546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = D7FE3E474DABDFE6E0BE59B43DB34D1C /* PBXContainerItemProxy */;
+		};
+		2B054AB4F964CFE10506E481E3FC43C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 28414FE43B82BF5DA9076B328948BBB6 /* PBXContainerItemProxy */;
+		};
+		666AEB2F40022D95C5402309A39BDD27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = 7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */;
+			targetProxy = 56F25469ECB6029CB371ECAB3572AFA3 /* PBXContainerItemProxy */;
+		};
+		836F8DE170690EFE02FE63F9881EAE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = 7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */;
+			targetProxy = 6C14510F8150F8966858A0CE1F4AF50A /* PBXContainerItemProxy */;
+		};
+		8932BBB5512A366CE99322C65E98CA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 8CE494E8297BE3C487882933AB21C14F /* PBXContainerItemProxy */;
+		};
+		8D5C126B345513D5252A966902381224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = FC5E0C0693F1795828F266F15210DE47 /* PBXContainerItemProxy */;
+		};
+		A4973166CBAACD5A907123CDAB8A9DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetmeraCore;
+			target = CA0300171E9802D54557EF380E7BF488 /* NetmeraCore */;
+			targetProxy = 1944A02234F77A60B5ED3E563AF360C8 /* PBXContainerItemProxy */;
+		};
+		C4AAFDC60C062FAEB3E3D81342DD5A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Netmera;
+			target = 504D61EE5449E137D951A12A2D4DAA2D /* Netmera */;
+			targetProxy = 248633F1245514D2BB79FC7BED8357AE /* PBXContainerItemProxy */;
+		};
+		E7A0BF4748641B86F667E6B009AEBABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = CF125F94D78004530EBEAE6AF5D70E58 /* PBXContainerItemProxy */;
+		};
+		F19364DB654FDFAA70D1A9BF7953996F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = 348F9EC8EE4870309DCFC294FA303A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02783405B2ADC85EF100E4AA0D108F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A384401C336841A629098E43AAC81 /* Pods-OrderStatusExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderStatusExtension/Pods-OrderStatusExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderStatusExtension/Pods-OrderStatusExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04C0115C6961D7AEB39B5477521E0814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F94CEECA1E83F93B9EEB6741DA425A /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1360ED1AD1884BE73B3314E27EABAD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B41E8F1D610DD1601385688C51E087 /* MMWormhole.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F0FC8E43EA87889911F74D1F449C37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F385961616B66F4801763CAFFB697CDD /* FMDB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		436A3E722AB6BB52BE944A644AE6CF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CF4F154F81C5C67346131D5B00FD46 /* Pods-OrderStatusExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderStatusExtension/Pods-OrderStatusExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderStatusExtension/Pods-OrderStatusExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A5BBB4EA61DDCCDB9B7CA5E84258087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9944AA921B545907B75170436E00DA21 /* MMWormhole.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51F95ABE34E7E320D8F26AE4EAEDD3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5569F2644837FE6B28ACDDAEF7BED192 /* NetmeraCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FC401D69356DAD9784AD6B6D93F9FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F833CF4D7967BF8ACB356BFB6ACB42 /* FMDB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/FMDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		900A44D94332DC7A743A3B79B1A6670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC733C0720B91D4346011B91EF35A343 /* Netmera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9806185A6B7BCA20725C3CDD59734FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D87FD2462AF04C577CCAD86411E6C9 /* UICKeyChainStore.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				PRODUCT_MODULE_NAME = UICKeyChainStore;
+				PRODUCT_NAME = UICKeyChainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		989B0922B3F881C440BF290A5C8650CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9936058A23EEBB14775AF7C6B2B184 /* Pods-LiveActivities.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveActivities/Pods-LiveActivities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveActivities/Pods-LiveActivities.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B484B1A47A048F5D62E320BF31E008E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78331221F6F41692400B5010865A299 /* Pods-LiveActivities.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveActivities/Pods-LiveActivities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveActivities/Pods-LiveActivities.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B85E53FDB0442A60B95488F2352DD3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838445C0D7401AD8710FE67AEC51A29F /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE3225DF89F5C4B3E367AF01050BFD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F19C73756B199E6BD0D1ABE4E1C6C9 /* UICKeyChainStore.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				PRODUCT_MODULE_NAME = UICKeyChainStore;
+				PRODUCT_NAME = UICKeyChainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC4EEC2B4279DC9FBB3BD7D02757118E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B28D12D90DBACBB899823EBAE1BCC17 /* NetmeraCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1A0F2F6CE80F1D20CC15CE7969761FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED66CA7D877813008889D1161AD3CA1F /* Netmera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5BBB4EA61DDCCDB9B7CA5E84258087 /* Debug */,
+				1360ED1AD1884BE73B3314E27EABAD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FA85BFF587E84927EC6224938E617F /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0FC8E43EA87889911F74D1F449C37A /* Debug */,
+				5FC401D69356DAD9784AD6B6D93F9FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E6D1B69EAF7079A52007EBFEA3C598 /* Build configuration list for PBXNativeTarget "Pods-OrderStatusExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02783405B2ADC85EF100E4AA0D108F78 /* Debug */,
+				436A3E722AB6BB52BE944A644AE6CF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57635676256021813CF5531494D315E /* Build configuration list for PBXAggregateTarget "NetmeraCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4EEC2B4279DC9FBB3BD7D02757118E /* Debug */,
+				51F95ABE34E7E320D8F26AE4EAEDD3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63D0B52C50B4C7A3189B42561E7EEFD /* Build configuration list for PBXNativeTarget "Pods-LiveActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989B0922B3F881C440BF290A5C8650CD /* Debug */,
+				B484B1A47A048F5D62E320BF31E008E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55EC52B4DF6E9DCBA805620E92C24A8 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9806185A6B7BCA20725C3CDD59734FF7 /* Debug */,
+				BE3225DF89F5C4B3E367AF01050BFD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E643408141A2390B8CF8B5E5C0D6D8E4 /* Build configuration list for PBXAggregateTarget "Netmera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A0F2F6CE80F1D20CC15CE7969761FD /* Debug */,
+				900A44D94332DC7A743A3B79B1A6670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60027E31A7444922D657895F596AD76 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85E53FDB0442A60B95488F2352DD3E1 /* Debug */,
+				04C0115C6961D7AEB39B5477521E0814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
