@@ -3,12 +3,14 @@
       "timestamp": 1168364460,
       "event": "update",
       "content-state": {
-          "status" : "ready"
+          "teamAScore" : "1"
+          "teamBScore" : "1"
+          "text" : "50. Dakikada Hatayspor, Ze Luis'le golü buldu ve skoru eşitledi."
           
       },
       "alert": {
-          "title": "Netmera Live Activity",
-          "body": "Siparişin hazır"
+          "title": "title",
+          "body": "text"
       },
    },
   "Simulator Target Bundle": "com.netmera.NetmeraApp"

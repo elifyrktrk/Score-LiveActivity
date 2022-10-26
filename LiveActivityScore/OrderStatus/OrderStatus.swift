@@ -60,7 +60,7 @@ struct OrderStatus: Widget{
                                 .foregroundStyle(.white)
                         }
                     }
-                    Image("Konya")
+                    Image("Hatay")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 60,height: 60)

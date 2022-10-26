@@ -13,7 +13,7 @@ struct OrderAttributes: ActivityAttributes {
         
         var estimatedDeliveryTime: Date
         var teamAScore = "1"
-        var teamBScore = "2"
+        var teamBScore = "0"
         var text = "İkinci yarı başladı"
     }
     
